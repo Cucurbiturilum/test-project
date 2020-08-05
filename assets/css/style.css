@@ -1,11 +1,13 @@
 body {
   font-family: september, sans-serif;
   padding: 50px 20px;
+  text-align: center;
 }
 body .year {
   color: #083366;
   margin-bottom: 20px;
   font-size: 40px;
+  text-align: left;
 }
 @media (min-width: 768px) {
   body .year {
@@ -44,6 +46,7 @@ body .team .country-flag {
 body .team .team-name, body .team .championship, body .team .academy {
   color: #083366;
   line-height: 1.2;
+  text-align: left;
 }
 body .team .team-name {
   font-size: 20px;

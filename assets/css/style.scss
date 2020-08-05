@@ -4,11 +4,13 @@ body {
   $font-size: 40px;
   $main-color: #083366;
   $success-color: #39e4a4;
+  text-align: center;
 
   .year {
     color: $main-color;
     margin-bottom: 20px;
     font-size: $font-size;
+    text-align: left;
     @media (min-width: 768px) {
       font-size: $font-size*1.4;
     }
@@ -45,6 +47,7 @@ body {
     .team-name, .championship, .academy {
       color: $main-color;
       line-height: 1.2;
+      text-align: left;
     }
 
     .team-name {
